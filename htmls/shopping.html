@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src ="https://prod-hk.oss-eu-central-1.aliyuncs.com/default/20251011_152157_035532____800_____800x800.jpg?x-oss-process=image/format,webp/resize,w_400" alt="hirono monster carnival box">
+        <p>Hirono Monster Carnival Box</p>
+        <p><b>₱ 1,000.00</b></p>
+    </section>
+    
+    <section>
+        <h2>Payment Information</h2> 
+        <form>
+            <label for ="card-name"><span aria-hidden="true">*</span>Cardholder Name:</label>
+            <input type="text" id="card-name" name ="card-name" required> <br> <br>
+            <label for ="card-number"><span aria-hidden="true">*</span>Card Number:</label>
+            <input id="card-number" name ="card-number" type="text" required aria-describedby="card-number-help">
+            <p id="card-number-help">Please Enter Your Card Number</p> <br>
+            <label for ="quantity"><span aria-hidden="true">*</span>Quantity:</label>
+            <input type = "number" id ="quantity" name ="quantity" required min="1" max="10"> <br> <br>
+            <input type="submit" value="Place Your Oder">
+
+            
+        </form>
+    </section>
+</body>
+</html>

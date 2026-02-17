@@ -1,0 +1,15 @@
+
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.company {
+    display: inline;
+}
+
+.designation {
+    display: inline;
+}
