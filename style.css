@@ -1,11 +1,17 @@
-
-
+body {
+    background-color: rosybrown;
+    font-family: Arial, sans-serif;
+}
 .profile-image{
     width: 200px;
     height: 200px;
     border-radius: 200px;
 }
-
+.business-card {
+    width: 300px; 
+    background-color: #FFFDD0;
+    padding: 20px;
+}
 .company {
     display: inline;
 }
